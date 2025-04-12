@@ -27,9 +27,10 @@ while True:
  else:
  c.close()
  break
+~~~
 
 ## SERVER:
-
+~~~
  import socket
 s=socket.socket()
 s.connect(('localhost',8000))
